@@ -1,0 +1,307 @@
+body{
+    font-family: 'Cantarell', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+p{
+    display: inline;
+    font-size: 1.2rem;
+    color: white;  
+}
+
+#nav a{
+    display: inline;
+    font-size: 1.2rem;
+    color: white; 
+    text-decoration: none;
+    margin: 1.5rem;
+}
+
+h1{
+    color: white ;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #002d5b;
+    margin: 0%;
+    position: fixed;
+    top: 0px; 
+    transition: top 0.4s;
+    width: 100%;
+}
+
+.pages{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+/* home page */
+
+#description{
+    padding: 3rem;
+    margin-top: 150px;
+    display: flex;
+   
+    justify-content: space-around;
+}
+
+#description h1 {
+    color: #002d5b;
+    font-size: 6rem;
+    margin: 0px;
+}
+
+#description p{
+    color: black;
+    font-size: 2rem;
+}
+
+#description img{
+    width: 30rem;
+    height: 25rem;
+}
+
+
+
+.myButton {
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    background-color: #cf332b;
+    cursor:pointer;
+	color:#ffffff;
+    text-decoration:none;
+    font-size: 1.5rem;
+}
+
+/* intro */
+
+#intro{
+    padding: 4rem;
+    color: #002d5b;
+}
+
+#bio{
+    display: flex;
+    justify-content: space-between;
+}
+
+#bio h1 , #intro h1{
+    color: #002d5b;
+    font-size: 3rem;
+    margin: 10px;
+}
+.left{
+    width: 50% ;
+}
+
+.left p {
+    color: black;
+    word-spacing: 8px;
+    font-size: 1.5rem;
+    font-family: 'Cantarell', sans-serif;
+}
+
+#bio img{
+    height: 25rem;
+    width: 20rem;
+    border-radius: 10px;
+}
+
+th , td{
+    text-align: left ;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+/* Portfolio */
+
+#education{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+#education .undergrad{
+    margin: 2rem;
+    padding: 3px;
+    font-size: 1.2rem;    
+}
+
+.undergrad p{
+    color: black;
+}
+
+#education h2{
+    margin:20px;
+    color: #002d5b;
+}
+
+#education .undergrad:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#skills , .form , #contact{
+    font-family: 'Quicksand', sans-serif;
+     
+}
+
+#skills{
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+#skills h1{
+    color: #002d5b;
+}
+
+.skill_table h1{
+    margin:20px;
+}
+
+.skill_table .skillname{
+    margin: 16px;
+    border-left: 2px solid #060047;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+ table , tr , th ,  td {
+   border: 1px solid black;
+   border-collapse: collapse;
+   padding: 5px;
+}
+
+.lang h1{
+    margin:20px;
+}
+
+.lang ul li{
+    margin:20px;
+}
+
+.lang ul{
+    padding-left:0px;
+}
+
+.lang ul{
+    margin: 16px;
+    border-left: 2px solid #460C68;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+#skills{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#works h1{
+    color: #060047;
+}
+
+#works p{
+    color: black;
+}
+
+#works ul{
+    display: flex;
+    gap: 2rem;
+
+}
+
+#works h3{
+    color: #002d5b;
+    width: 30%;
+}
+/* contact */
+
+#contact p  , #contact h1{
+    color: black;
+}
+
+form{
+    width: 50%;
+    padding: 3rem;
+    border-right:  0.3rem solid #cf332b ;
+}
+
+input[type=email]{
+    width: 80%;
+    height: 3rem;
+}
+input[type=text]{
+    height: 7rem;
+    width: 80%;
+}
+
+input{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+input[type=submit]{
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    background-color: #cf332b;
+    cursor:pointer;
+	color:#ffffff;
+    text-decoration:none;
+    border-color: none;
+}
+
+.field p{
+    padding: 3rem;
+    padding-left: 5rem;
+}
+
+.field h2{
+    display: inline;
+}
+
+.field i{
+    padding: 2rem;
+    color: #002d5b;
+}
+
+.field{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+/* footer */
+
+#footer{
+    background-color: #002d5b;
+    padding: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.accounts{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+#footer p{
+    font-size: 2rem;
+}
+
+i{
+    color: white;
+}
+
